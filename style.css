@@ -1,0 +1,122 @@
+ul {
+    list-style-type: none;
+    margin:  0;
+    padding: 0;
+    overflow: hidden;
+    background-color: none;
+}
+li{
+float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+p {
+    margin-left: 300px;
+}
+
+.First {
+    height:400px;
+    width: 100%;
+}
+
+.unique {
+    display: flex;
+}
+
+.one {
+   background-color: #fbffa7; 
+   height: 300px;
+   width: 25%;
+   margin-right: 300px;
+   max-width: 25%;
+}
+
+.two {
+    align-items: center;
+    height: 200px;
+    width: 50%;
+    padding: 50px 50px;
+}
+
+.three {
+    height: 250px;
+    width: 200px;
+    margin-left: 300px;
+    margin-top: 20px;
+}
+
+.four {
+    height: 300px;
+    width: 50%;
+    margin-left: 300px;
+    max-width: 50%;
+}
+
+.unique2 {
+    display: flex;
+}
+
+.upper1 {
+    background-color: #b6ffc0;
+    height: 350px;
+    width: 50%;
+    margin-left: 300px;
+}
+
+.under1 {
+    height: 150px;
+    width: 200px;
+    padding: 10px 50px;
+    
+}
+
+.under2 {
+    height: 150px;
+    width: 200px;
+    padding: 10px 50px;
+   
+}
+
+.under3 {
+    height: 200px;
+    width: 200;
+    margin-right: 300px;
+    padding-top: 50px;
+}
+
+.Real {
+    height: 400px;
+    width: 100%;
+    padding: 20px 20px;
+    margin-left: 20px;
+}
+
+.div1 {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-left: 20px;
+    align-items: initial;
+    
+}
+h1 {
+    margin-left: 80px;
+    align-items: center;
+}
+
+.footer1 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    margin-left: 40px;
+    position: absolute;
+}
+
+.footer1 div {
+    padding: 20px 15px;
+}
